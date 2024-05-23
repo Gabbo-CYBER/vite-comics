@@ -23,7 +23,7 @@ export default {
 
 <template>
   <AppHeader />
-  <!-- <a href="google.it">Link non stilizzato in header</a> -->
+   <!-- <a href="google.it">Link non stilizzato in header</a>  -->
 
   <main>
     
