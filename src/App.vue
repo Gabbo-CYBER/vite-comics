@@ -25,10 +25,12 @@ export default {
   <AppHeader />
    <!-- <a href="google.it">Link non stilizzato in header</a>  -->
 
-  <main>
-    
-  </main>
+  <AppMain>
 
+
+  </AppMain>
+
+    
   <AppFooter />
       
 </template>

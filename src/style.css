@@ -20,10 +20,78 @@ body{
 
 
 .blue{
-  background: blue;
+  background:  #0282F9;
+  
+}
+
+.nav-img{
+  width: 5rem;
+
 }
 
 
-footer{
-  
+.wrapper {
+  display: flex;
+  height: 350px;
+  background-image: url(./assets/footer-bg.jpg);
+}
+
+footer {
+  height: 350px;
+}
+
+li {
+  color: white;
+  list-style: none;
+}
+
+.FooterList {
+  display: flex;
+  width: 35%;
+  height: 350px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.Nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.ListName {
+  width: 100%;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ListItem {
+  font-size: 15px;
+  font-weight: normal;
+  color: gray;
+}
+
+.img-wrapper {
+  margin-left: 300px;
+  overflow-y: hidden;
+}
+
+.dc-img {
+  transform: translatey(-20%);
+}
+
+
+.box {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  background: #303030; 
+}
+
+.photo{
+  width: 4rem;
 }
