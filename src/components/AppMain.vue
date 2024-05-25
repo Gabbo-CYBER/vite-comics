@@ -7,6 +7,17 @@
 
 
 <template>
+    <div id="app">
+        <div class="slide" v-for="image, i in images">
+            <img :src="image" alt="">
+        </div>
+        <div id="thumbmailsContainer">
+            <img v-for="thumbnail in images" :src="thumbnail">
+
+
+        </div>
+
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12 m-4">
@@ -19,14 +30,14 @@
             <div class="row align-items-center">
                 <div class="col">
                     <img class="photo" src="../assets/buy-comics-digital-comics.png" alt="">Digital Comics
-                   
+
                 </div>
                 <div class="col">
                     <img class="photo" src="../assets/buy-comics-merchandise.png" alt="">DC Merchandise
-                   
+
                 </div>
                 <div class="col">
-                    <img class="photo" src="../assets/buy-comics-subscriptions.png"alt="">Subscriptions
+                    <img class="photo" src="../assets/buy-comics-subscriptions.png" alt="">Subscriptions
                 </div>
                 <div class="col">
                     <img class="photo" src="../assets/buy-comics-shop-locator.png" alt="">Comic Shop Locator

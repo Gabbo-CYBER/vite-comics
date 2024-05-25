@@ -4,8 +4,8 @@ export default {
     name: "AppFooter",
     data() {
         return {
-            imgVitePublic: "/vite.svg",
-            imgVueAssets: "vue.svg"
+            // imgVitePublic: "/vite.svg",
+            // imgVueAssets: "vue.svg"
         }
             FooterNav: [
                 {
@@ -28,21 +28,22 @@ export default {
         }
     }
 
-    methods: {
-        //Metodo per elaborare correttamente i percorsi delle immagini
-        //Serve quando i file sono sotto assets e il percorso arriva dal data
-        //Non serve se le immagini sono in public, o se scriviamo il percorso direttamente da HTML (v. sotto)
-        //Il percorso va scritto in una stringa col backtick e dall'esterno ricevo SOLO il nome del file, altrimenti non funzionerà
-        getImage(nomefile) {
-            return new URL(`../assets/${nomefile}`, import.meta.url);
-        }
-    }
+    // methods: {
+    //     //Metodo per elaborare correttamente i percorsi delle immagini
+    //     //Serve quando i file sono sotto assets e il percorso arriva dal data
+    //     //Non serve se le immagini sono in public, o se scriviamo il percorso direttamente da HTML (v. sotto)
+    //     //Il percorso va scritto in una stringa col backtick e dall'esterno ricevo SOLO il nome del file, altrimenti non funzionerà
+    //     getImage(nomefile) {
+    //         return new URL(`../assets/${nomefile}`, import.meta.url);
+    //     }
+    // }
 
 
 
 </script>
 
 <template>
+    
         <div class="wrapper">
             <div class="FooterList">
                 <ul class="Nav" v-for="element in FooterNav">
