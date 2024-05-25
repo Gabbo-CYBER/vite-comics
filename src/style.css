@@ -13,6 +13,10 @@ body{
   padding: 1rem;
 }
 
+/* .navbar {
+  position: fixed;
+  width: 100%;
+} */
 
 .col-12{
   background-color: #222;
