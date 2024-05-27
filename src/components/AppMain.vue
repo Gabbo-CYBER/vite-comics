@@ -1,5 +1,16 @@
 <script>
 
+import ComicsList from './ComicsList.vue';
+
+export default {
+  components: {
+   ComicsList,
+    
+  },
+}
+
+
+
 
 
 </script>

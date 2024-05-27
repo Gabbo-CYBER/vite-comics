@@ -4,12 +4,12 @@ export default {
     name: "AppFooter",
     data() {
         return {
-            // imgVitePublic: "/vite.svg",
+             // imgVitePublic: "/vite.svg",
             // imgVueAssets: "vue.svg"
-        }
-            FooterNav: [
+
+            FooterNav:[
                 {
-                    Name: "DC COMICS",
+                    Name: "dc comics",
                     NavElement: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"]
                 },
                 {
@@ -27,12 +27,10 @@ export default {
             ]
         }
     }
+}
+
 
     // methods: {
-    //     //Metodo per elaborare correttamente i percorsi delle immagini
-    //     //Serve quando i file sono sotto assets e il percorso arriva dal data
-    //     //Non serve se le immagini sono in public, o se scriviamo il percorso direttamente da HTML (v. sotto)
-    //     //Il percorso va scritto in una stringa col backtick e dall'esterno ricevo SOLO il nome del file, altrimenti non funzionerà
     //     getImage(nomefile) {
     //         return new URL(`../assets/${nomefile}`, import.meta.url);
     //     }
@@ -41,6 +39,7 @@ export default {
 
 
 </script>
+
 
 <template>
     

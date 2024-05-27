@@ -2,14 +2,15 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
-import ComicsList from './components/ComicsList.vue';
+
 
 export default {
   components: {
     AppHeader,
     AppMain,
     AppFooter,
-    ComicsList,
+    
+    
   },
   data() {
     return {
@@ -32,9 +33,16 @@ export default {
 
 
   </AppMain>
+  <AppFooter>
+
+
+
+
+  </AppFooter>
+
 
     
-  <AppFooter />
+
       
 </template>
 
