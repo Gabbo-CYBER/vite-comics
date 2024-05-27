@@ -2,6 +2,7 @@
 
 import ComicsList from './ComicsList.vue';
 
+
 export default {
   components: {
    ComicsList,
@@ -18,6 +19,7 @@ export default {
 
 
 <template>
+
     <div id="app">
         <div class="slide" v-for="image, i in images">
             <img :src="image" alt="">
@@ -33,6 +35,7 @@ export default {
         <div class="row">
             <div class="col-12 m-4">
                 <h2>Content goes here</h2>
+            <ComicsList></ComicsList>
             </div>
         </div>
     </div>

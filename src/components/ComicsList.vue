@@ -84,24 +84,19 @@ export default {
 }
 
 
-
 </script>
 
 
 <template>
     <div class="funziona">ciao</div>
-
-
-
-</template>
-
-
-
-
-
-<template>
+    <div v-for ="element in fumetti">{{element.series}}</div>
 
 
 
 
 </template>
+
+
+
+
+
